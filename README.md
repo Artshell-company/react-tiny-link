@@ -2,13 +2,15 @@
 
 > Convert your links into beautiful previews
 
+*This is a fork of [winhtaikaung/react-tiny-link](https://github.com/winhtaikaung/react-tiny-link) with cache support waiting for [PR #88](https://github.com/winhtaikaung/react-tiny-link/pull/88) to be merged*
+
 Yet anotherReact link preview component with cards for web without a specific backend.
 
 [![npm version](https://badge.fury.io/js/react-tiny-link.svg)](https://badge.fury.io/js/react-tiny-link) ![npm](https://img.shields.io/npm/v/react-tiny-link.svg) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/winhtaikaung/react-tiny-link.svg) ![NPM](https://img.shields.io/npm/l/react-tiny-link.svg)
 
 [![All Contributors](https://img.shields.io/github/contributors/winhtaikaung/react-tiny-link?style=flat-square&color=orange&label=all%20contributors)](#contributors)
 
-[![NPM](https://nodei.co/npm/react-tiny-link.png)](https://nodei.co/npm/react-tiny-link/)
+[![NPM](https://nodei.co/npm/@artshell/react-tiny-link.png)](https://nodei.co/npm/@artshell/react-tiny-link/)
 
 ## CORS enabled?
 
