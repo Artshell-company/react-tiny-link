@@ -123,7 +123,9 @@ export function useScraper({
     }
 
     // Makes the request and wraps it so we can cancel it if needed
-    const cancelable = makeCancelable(doFetch())
+    const cancelable = makeCancelable(doFetch());
+    // avoid throw errors on promise cancel, other errors should be catched inside doFetch function
+    cancelable.promise.catch(() => {});
 
     // Returns a cleanup function which permits to avoid potential
     // memory leaks and unnecessary network when the component is
