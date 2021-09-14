@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // Transpilation settings.
+    "module": "esnext",
+    "target": "ES5",
+
+    // Output settings.
+    "charset": "utf-8",
+    "newLine": "LF",
+    "sourceMap": true,
+  },
+  "exclude": ["./src/**/*.test.ts", "./src/**/*.test.tsx"]
+}
