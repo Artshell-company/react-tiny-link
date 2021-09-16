@@ -1,6 +1,6 @@
 {
   "name": "@artshell/react-tiny-link",
-  "version": "3.6.2",
+  "version": "3.6.3",
   "cdn": "dist/index.umd.js",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
@@ -68,6 +68,7 @@
     "rollup": "^2.56.3",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
+    "styled-components": "5.1.0",
     "typescript": "^3.3.4000",
     "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack": "^4.29.6",
@@ -80,7 +81,6 @@
   },
   "dependencies": {
     "react": "*",
-    "react-dom": "*",
-    "styled-components": "^5.3.1"
+    "react-dom": "*"
   }
 }
